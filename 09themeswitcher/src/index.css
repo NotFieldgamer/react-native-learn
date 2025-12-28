@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* 
+
+This is line below is most important for tailwindcss v4 for theme
+Toggler
+
+*/
+@custom-variant dark (&:where(.dark, .dark *)) 
